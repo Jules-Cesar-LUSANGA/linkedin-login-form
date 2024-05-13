@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Login Form</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <div id="main" class="flex h-screen justify-center items-center">
+    <div>
+      <form action="" class="shadow-2xl rounded-lg p-5">
+        <h1 class="font-bold text-3xl">Sign In</h1>
+        
+        <p class="mt-2 mb-3">
+          Stay updated on your professional world
+        </p>
+
+        <input type="email" name="email" placeholder="Email or Phone" class="block w-full border-2 border-gray-400 rounded p-2 mb-3">
+
+        <div class="flex items-center border-2 border-gray-400 rounded mb-3">
+          <input type="password" name="password" id="password" placeholder="Password" class="block w-full p-2">
+          <span class="p-2 font-medium text-blue-700" id="togglePassword">Show</span>
+        </div>
+
+        <a href="" class="block text-blue-700 font-medium mb-3">Forgot password?</a>
+
+        <div class="text-center">
+        
+          <input type="button" value="Sign in" class="inline-block font-medium bg-blue-600 text-white rounded-full p-2 w-full">
+        
+          <p class="my-1">Or</p>
+          
+          <button class="flex items-center justify-center font-medium border-2 border-gray-700 rounded-full p-2 w-full">
+            <img src="images/google.svg" alt="Google logo" class="px-2">
+            <span>Sign in with Google</span>
+          </button>
+        
+        
+        </div>
+      </form>
+
+      <p class="text-center mt-3">
+        New to here? <a href="" class="font-medium text-blue-700">Join now</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
